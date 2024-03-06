@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(223, 248, 232);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbarClass {
+    /* left: fix navbar anyway*/
+    height: 30px;
+    color: white;
+    background-color: Black;
+    padding: 5px 0px;
+}
+
+.navbarClass ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarClass ul li {
+    margin: auto;
+    list-style: none;
+
+}
+
+.navbarClass ul li a {
+    padding-top: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+.navbarClass ul li a:hover {
+    cursor: pointer;
+    color: rgb(212, 223, 65);
+}
+
+.navbarClass ul li a:active {
+    color: rgb(37, 170, 32);
+}
+
+.liveTranscriptDiv{
+    background-color: red;
+    color: white;
+    /* color: white; */
+    height: 2.5rem;
+}
+
+#liveTranscriptDivP {
+    font-size: 1.2rem;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 10px; */
+    padding-top: 5px;
+}
+#circleDiv11{
+    left: 45%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(68, 233, 245);
+    opacity: 0.4;
+    z-index: -1;
+}
+#squareDiv12{
+    left: 55%;
+    top: 60%;
+    transform: translate(-70%, -40%);
+    border-radius: 10%;
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(112, 245, 130);
+    opacity: 0.2;
+    z-index: 1;
+}
+#squareDiv13{
+    left: 10%;
+    top: 45%;
+    border-radius: 10%;
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    transform: rotate(45deg);
+    background-color: rgb(245, 112, 123);
+    opacity: 0.2;
+    z-index: 1;
+}
+#squareDiv14{
+    right: 10%;
+    top: 45%;
+    border-radius: 10%;
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    transform: rotate(45deg);
+    background-color: rgb(152, 112, 245);
+    opacity: 0.2;
+    z-index: 1;
+}
+#circleDiv21{
+    /* left: 45%; */
+    left: 10%;
+    top: 150%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(68, 233, 245);
+    opacity: 0.2;
+    z-index: -1;
+}
+#squareDiv22{
+    /* left: 55%; */
+    left: 20%;
+    top: 160%;
+    transform: translate(-70%, -40%);
+    border-radius: 10%;
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(112, 245, 130);
+    opacity: 0.2;
+    z-index: 1;
+}
+#squareDiv23{
+    /* left: 10%; */
+    left: 40%;
+    top: 145%;
+    border-radius: 10%;
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    transform: rotate(45deg);
+    background-color: rgb(245, 112, 123);
+    opacity: 0.2;
+    z-index: 1;
+}
+#squareDiv24{
+    right: 10%;
+    top: 145%;
+    border-radius: 10%;
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    transform: rotate(45deg);
+    background-color: rgb(152, 112, 245);
+    opacity: 0.2;
+    z-index: 1;
+}
+#circleDiv31{
+    right: 10%;
+    top: 250%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(68, 233, 245);
+    opacity: 0.2;
+    z-index: -1;
+}
+#squareDiv32{
+    right: 0%;
+    top: 260%;
+    transform: translate(-70%, -40%);
+    border-radius: 10%;
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(112, 245, 130);
+    opacity: 0.2;
+    z-index: 1;
+}
+#squareDiv33{
+    left: 10%;
+    top: 245%;
+    border-radius: 10%;
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    transform: rotate(45deg);
+    background-color: rgb(245, 112, 123);
+    opacity: 0.2;
+    z-index: 1;
+}
+#squareDiv34{
+    right: 45%;
+    top: 245%;
+    border-radius: 10%;
+    position: absolute;
+    height: 30vh;
+    width: 30vh;
+    transform: rotate(45deg);
+    background-color: rgb(152, 112, 245);
+    opacity: 0.2;
+    z-index: 1;
+}
+#cryptocurrencyDiv{
+    border-radius: 5px;
+}
+.coinPriceDiv{
+    /* margin: 7px; */
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    /* padding: 10px 20px; */
+    padding: 0.625rem 1.25rem;
+    box-shadow: 0 0 o.2rem #ccc;
+    border-radius: 0.3rem;
+}
+.logoDiv img{
+    height: 4.5rem;
+    width: 4.5rem;
+}
