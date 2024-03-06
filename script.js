@@ -47,7 +47,7 @@ let intervalForCryptoId = setInterval(() => {
             let newId = document.getElementById('id-' + cryptoAbbreviations[i]);
             let p = await fetch(url);
             let res = await p.json();
-            newId.innerHTML = parseFloat(res.price).toFixed(4);
+            newId.innerHTML = "$" + parseFloat(res.price).toFixed(4) ;
         }
     }
     fetchPrice();
